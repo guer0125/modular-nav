@@ -10,6 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -26,18 +27,58 @@ body {
   width: 100%;
 }
 
+.section-light {
+  background-color: #e2e2e2;
+}
+
+a {
+  color: #0074d9;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.masthead {
+  text-align: center;
+}
+
+.nav {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.nav a {
+   display: block;
+   text-decoration: none;
+}
+
+a:hover {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+h1 {
+  margin: 0;
+}
+
 @media only screen and (min-width: 25em) {
 
 }
-
 @media only screen and (min-width: 38em) {
+  .masthead {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
 
 }
-
 @media only screen and (min-width: 60em) {
 
 }
-
 @media only screen and (min-width: 90em) {
 
 }

@@ -50,8 +50,8 @@ a {
 }
 
 .nav a {
-   display: block;
-   text-decoration: none;
+  display: block;
+  text-decoration: none;
 }
 
 a:hover {
@@ -65,8 +65,14 @@ h1 {
 
 @media only screen and (min-width: 25em) {
 
+  .nav a {
+    display: block;
+  }
+
 }
+
 @media only screen and (min-width: 38em) {
+
   .masthead {
     text-align: left;
   }
@@ -76,9 +82,15 @@ h1 {
   }
 
 }
+
 @media only screen and (min-width: 60em) {
 
-}
-@media only screen and (min-width: 90em) {
+  .masthead {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
 
 }
